@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Jayms8462/Portfolio/issues"
   },
-  "homepage": "https://github.com/Jayms8462/Portfolio#readme"
+  "homepage": "https://github.com/Jayms8462/Portfolio#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1"
+  }
 }
