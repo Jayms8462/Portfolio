@@ -59,9 +59,9 @@
     <div id="main">
 
         <!-- Intro -->
-        <section id="top" class="one dark cover">
+        <section id="top" class="one dark cover" onclick="">
             <div class="container">
-
+                
                 <header>
                     <h2 class="alt">Welcome I'm <strong>James</strong>, a Network Engineer and <br />Software Developer. <br /> Below are a few projects that I have worked on.</h2>
                 </header>
@@ -69,10 +69,15 @@
                 <footer>
                     <a href="#portfolio" class="button scrolly">Portfolio</a>
                 </footer>
-
+                
             </div>
+            
         </section>
-
+        <div class="imgCarousel">
+            <button onclick="imageChange('one')">1</button>
+            <button onclick="imageChange('two')">2</button>
+            <button onclick="imageChange('three')">3</button>
+        </div>
         <!-- Portfolio -->
         <section id="portfolio" class="two">
             <div class="container">
@@ -188,13 +193,14 @@
     </div>
 
     <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.19/jquery.scrollify.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.scrollex/0.2.1/jquery.scrollex.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-browser/0.1.0/jquery.browser.min.js"></script>
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/app.js"></script>
 
 </body>
 
